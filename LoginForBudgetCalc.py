@@ -6,7 +6,7 @@ print('BUDGET CALCULATOR\n\n')
 
 #Accessing login database if it exists/Creating one if it does not.
 #Enter the location for your csv file (database) below
-loginInformation = '....'
+loginInformation = 'Users/examples/Desktop'
 try:
     with open (loginInformation, 'r', encoding = 'utf8') as loginInfo:
         check = loginInfo.readline()
